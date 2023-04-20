@@ -16,7 +16,7 @@ spec:
         app: weatherforecast-api
     spec:
       containers:
-        - image: ragazzilab/weatherforecast-service-api:latest
+        - image: nginx:latest
           name: weatherforecast-api
           ports:
             - containerPort: 8080
